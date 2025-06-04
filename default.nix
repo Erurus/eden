@@ -82,8 +82,8 @@ let
 in
 
 stdenv.mkDerivation (finalAttrs: {
-  pname = "torzu";
-  version = "unstable-2025-02-22";
+  pname = "eden";
+  version = "unstable-2025-06-5";
 
   src = fetchgit {
     url = "https://git.eden-emu.dev/eden-emu/eden";
