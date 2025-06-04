@@ -217,7 +217,7 @@ stdenv.mkDerivation (finalAttrs: {
   meta = {
     description = "Fork of yuzu, an open-source Nintendo Switch emulator";
     homepage = "https://git.eden-emu.dev/eden-emu/eden";
-    mainProgram = "yuzu";
+    mainProgram = "eden";
     platforms = lib.platforms.linux;
     badPlatforms = [
       # Several conversion errors, probably caused by the update to GCC 14
